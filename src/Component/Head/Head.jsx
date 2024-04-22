@@ -70,7 +70,7 @@ const Head = () => {
                   {/* <a href={link.link} className="">
                     {link.icon} {link.name}
                   </a> */}
-                  <Link to={link.link}>{link.icon}{link.name}</Link>
+                  <Link to={link.link}>{link.icon}{" "}{link.name}</Link>
                 </li>
               ))}
 
