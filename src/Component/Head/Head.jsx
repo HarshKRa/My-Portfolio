@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import sig from "../../assets/Text_Signature (3).png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
 import {
   faBars,
@@ -66,9 +67,10 @@ const Head = () => {
             >
               {Links.map((link) => (
                 <li key={link.name} className="md:ml-8  hover:scale-110 my-5">
-                  <a href={link.link} className="">
+                  {/* <a href={link.link} className="">
                     {link.icon} {link.name}
-                  </a>
+                  </a> */}
+                  <Link to={link.link}>{link.icon}{link.name}</Link>
                 </li>
               ))}
 
