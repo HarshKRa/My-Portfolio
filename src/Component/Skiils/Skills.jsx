@@ -110,14 +110,14 @@ function Skills() {
   ];
   return (
     <>
-      <div className="bg-[#1E293B] flex flex-col mx-auto border-white border-2 rounded-lg w-11/12 mt-10  p-10 md:px-2 md:py rounded-3xl">
+      <div className="bg-[#1E293B] flex flex-col mx-auto border-white border-2 rounded-lg w-11/12 mt-10  p-10 md:px-2 md:py">
         <h1 className="font-mono text-2xl subpixel-antialiased font-bold text-center">
           Skills
         </h1>
 
         <div className="flex md:flex-row flex-col mt-10">
-          <div className="bg-[#191E26] my-2 py-4 px-10 flex flex-col md:w-4/12 w-8/12 rounded-3xl m-auto border-white border-2 rounded-lg">
-            <h1 className="text-center">Frontend</h1>
+          <div className="bg-[#191E26] my-2 py-4 md:px-10 px-4  flex flex-col md:w-4/12 w-full  m-auto border-white border-2 rounded-lg">
+            <h1 className="text-center mb-5">Frontend</h1>
 
             {frontenDetails.map((fdeat) => (
 
@@ -139,12 +139,12 @@ function Skills() {
               </div>
             ))}
           </div>
-          <div className="bg-[#191E26] my-2 py-4 px-10 flex md:w-4/12 w-8/12 flex-col rounded-3xl m-auto border-white border-2 rounded-lg">
-            <h1 className="text-center">Tools & Technology</h1>
+          <div className="bg-[#191E26] my-2 py-4 md:px-10 px-4  flex flex-col md:w-4/12 w-full  m-auto border-white border-2 rounded-lg">
+            <h1 className="text-center mb-5">Tools & Technology</h1>
 
             {OtherSkillsDetails.map((fdeat) => (
 
-              <div key={fdeat.name}>
+              <div key={fdeat.name} className="w-full">
                 <label
                   htmlFor="disk_c"
                   className="flex md:flex-row flex-col align-middle"

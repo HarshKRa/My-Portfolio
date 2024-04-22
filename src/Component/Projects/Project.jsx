@@ -6,7 +6,7 @@ import imgL from '../../assets/leetcodeProfile.png'
 
 function Project() {
   return (
-    <div className='bg-[#1E293B] flex justify-center flex-col items-center border-white border-2 rounded-lg mx-auto w-11/12 mt-10 p-10 md:px-2 md:py rounded-3xl' >
+    <div className='bg-[#1E293B] flex justify-center flex-col items-center border-white border-2 rounded-lg mx-auto w-11/12 mt-10 md:p-10 p-6 pb-0 md:px-2 md:py rounded-3xl' >
       <h1 className='font-mono text-2xl subpixel-antialiased font-bold'>Projects</h1>
 
       <div className="mt-5 flex flex-wrap justify-center align-middle  p-5">
@@ -20,10 +20,10 @@ function Project() {
               <h2>{data.name}</h2>
               <p>{data.discription}</p>
 
-             <div className='flex'>
+             <div className='flex flex-wrap'>
              {
                 data.technologyUsed.map((tech)=>(
-                  <div className='mr-2 bg-[#1E293B] px-2 py-1'>
+                  <div className='mr-2 mt-2 bg-[#1E293B] px-2 py-1'>
                     {tech.split(",")}
                   </div>
                 ))
