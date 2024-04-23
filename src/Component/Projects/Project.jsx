@@ -1,12 +1,13 @@
 import React from 'react';
 import ProjectData from '../../Data/ProjectData.jsx'
 import imgL from '../../assets/leetcodeProfile.png'
+import LeetCode from '../../ProblemSolving/LeetCode.jsx';
 
 
 
 function Project() {
   return (
-    <div className='bg-[#1E293B] flex justify-center flex-col items-center border-white border-2 rounded-lg mx-auto w-11/12 mt-10 md:p-10 p-6 pb-0 md:px-2 md:py rounded-3xl' >
+    <div className='bg-[#1E293B] flex justify-center flex-col items-center border-white border-2 rounded-lg mx-auto w-11/12 mt-10 md:p-10 p-6 pb-0 md:px-2' >
       <h1 className='font-mono text-2xl subpixel-antialiased font-bold'>Projects</h1>
 
       <div className="mt-5 flex flex-wrap justify-center align-middle  p-5">

@@ -27,18 +27,6 @@ const ProjectData = [
         technologyUsed : [ "HTML","CSS","JavaScript"],
         imgink: imgL,
      },
-     {
-        name:"Leetcode",
-        discription:"450+ Problems Solved.",
-        technologyUsed : [ "Java"],
-        imgink: imgL,
-     },
-     {
-        name:"Coding Ninja",
-        discription:"50+ problems solved",
-        technologyUsed : [ "Java"],
-        imgink: imgCn,
-     }
      
 ]
 

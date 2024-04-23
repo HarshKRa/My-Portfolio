@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="fixed bottom-1 left-0 w-full">
+    <div className="w-full">
       {/* <div className="bg-[#101018] text-center py-4 border-white border-2 rounded-lg"> */}
       <div
         className="text-sm text-center md:px-10 md:py-4 py-2 bg-[#27321e] bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100

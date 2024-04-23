@@ -13,6 +13,7 @@ import {
 import Button from "../../Button/Button";
 import Skills from "../Skiils/Skills";
 import Project from '../Projects/Project'
+import LeetCode from "../../ProblemSolving/LeetCode";
 
 
 
@@ -97,7 +98,8 @@ function Hero() {
       </div>
 
       <Skills></Skills>
-      <Project></Project>
+      <Project></Project> 
+      <LeetCode></LeetCode>
     </div>
   );
 }
