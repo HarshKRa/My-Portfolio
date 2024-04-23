@@ -44,7 +44,7 @@ function LeetCode() {
   return (
     <>
       <div className='bg-[#1E293B] border-white border-2 rounded-lg mx-auto w-11/12 mt-10 p-6 md:px-2 ' >
-        <h1 className="text-2xl text-center  font-bold mb-8">LeetCode Stats</h1>
+        <h1 className="text-2xl text-center  font-bold md:mb-8 mb-2">LeetCode Stats</h1>
 
         {/* Data Container */}
           <div className="flex flex-wrap justify-center">
