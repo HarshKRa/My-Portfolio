@@ -20,13 +20,32 @@ const ProjectData = [
         discription:"Built using Open weather API",
         technologyUsed : [ "React","CSS","API"],
         imgink: imgWa,
+        url:"https://hrweather.netlify.app/",
+        gitUrl:"https://github.com/HarshKRa/wheatherapp",
      },
+     {
+      name:"Tic Tac Toe",
+      discription:"Bilt a game using JavaScript",
+      technologyUsed : [ "HTML","CSS","JavaScript"],
+      imgink: imgL,
+      url:"https://harshtictactoegame.netlify.app/",
+      gitUrl:"https://github.com/HarshKRa/TicTacToeGame",
+   },
      {
         name:"Digital-Clock",
         discription:"Built using Date and time function.",
         technologyUsed : [ "HTML","CSS","JavaScript"],
         imgink: imgL,
      },
+
+     {
+      name:"Online Food",
+      discription:"Built using HTML CSS Responsive application",
+      technologyUsed : [ "HTML","CSS"],
+      imgink: imgL,
+      url:"https://harshfood.netlify.app/",
+      gitUrl:"https://github.com/HarshKRa/OnlineFood"
+   }
      
 ]
 

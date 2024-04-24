@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectData from '../../Data/ProjectData.jsx'
 import imgL from '../../assets/leetcodeProfile.png'
 import LeetCode from '../../ProblemSolving/LeetCode.jsx';
+import { text } from '@fortawesome/fontawesome-svg-core';
 
 
 
@@ -32,9 +33,9 @@ function Project() {
              </div>
               </div>
               <div className='flex px-2 justify-between'>
-                <p className='hover:scale-125'>visit</p>
-                <p className='hover:scale-125'>code </p>
-                </div>
+                <p className='hover:scale-125'><a href={data.url} target='_blank'>Visit</a></p>
+                <p className='hover:scale-125'><a href={data.gitUrl} target='_blank'>Code</a></p>
+                </div> 
             </div>
             
           )
