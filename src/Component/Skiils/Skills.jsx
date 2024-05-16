@@ -110,7 +110,7 @@ function Skills() {
   ];
   return (
     <>
-      <div className="bg-[#1E293B] flex flex-col mx-auto border-white border-2 rounded-lg w-11/12 mt-10  p-10 md:px-2 md:py">
+      <div className="flex flex-col mx-auto w-11/12 mt-10  p-10 md:px-2 md:py bg-gray-600 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100">
         <h1 className="font-mono text-2xl subpixel-antialiased font-bold text-center">
           Skills
         </h1>

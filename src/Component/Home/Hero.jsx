@@ -43,7 +43,7 @@ function Hero() {
 
   return (
     <div className="mb-20">
-      <div className="bg-[#1E293B] flex justify-center items-center m-auto w-11/12 border-white border-2 md:mt-28 mt-20 md:p-0 p-10 rounded-lg">
+      <div className="flex justify-center items-center m-auto w-11/12 md:mt-28 mt-20 md:p-0 p-10 bg-gray-600 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100">
         <div className="md:flex  mix-blend-normal">
           <div className="md:p-9  relative mix-blend-normal h-2/5 w-2/5 m-auto md:order-2">
             <img src={HeroImg} alt="" className="rounded-full m-auto" />

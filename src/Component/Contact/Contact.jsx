@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import emailjs from '@emailjs/browser'
 import { faArrowRight, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebook,
@@ -11,6 +12,8 @@ import {
 // npm i @emailjs/browser
 
 const Contact = () => {
+
+  const formData = useRef();
   const talToMeDetails = [
     {
       name: "Email",
@@ -78,7 +81,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="bg-[#1E293B] mx-auto w-11/12 md:px-10 md:mt-28 mt-20 py-8 border-white border-2 rounded-lg">
+      <div className=" mx-auto w-11/12 md:px-10 md:mt-28 mt-20 py-8 border-white border-2 rounded-lg bg-gray-600 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100">
         <h1 className="font-mono text-2xl text-center subpixel-antialiased font-bold">
           Contact Me
         </h1>
@@ -117,7 +120,7 @@ const Contact = () => {
         </form>
       </div>
 
-      <div className="bg-[#1E293B] mx-auto w-11/12 md:px-10 mt-10  py-8 border-white border-2 rounded-lg mb-20">
+      <div className=" mx-auto w-11/12 md:px-10 mt-10  py-8 mb-20 bg-gray-600 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100">
         <h2 className="font-mono text-xl text-center subpixel-antialiased font-bold">
           Talk to me!
         </h2>
