@@ -1,14 +1,19 @@
 import React from "react";
-import profileImg from "../../assets/HeroImg.jpg";
-import Resume from "../../assets/HARSH Resume.pdf";
-import { faBriefcase, faGraduationCap, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
+import profileImg from "../../assets/ProfImg.jpeg";
+import Resume from "../../assets/HarshResume.pdf";
+import {
+  faBriefcase,
+  faGraduationCap,
+  faLaptopCode,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUpwork } from "@fortawesome/free-brands-svg-icons";
+import LeetCode from "../../ProblemSolving/LeetCode";
 
 function About() {
   return (
     <div className="mb-20">
-      <div className="mx-auto w-11/12 md:px-10 md:mt-28 mt-20 py-8 bg-gray-600 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100">
+      <div className="mx-auto w-11/12 md:px-10 md:mt-28 mt-20 py-8 bg-bgPrimary rounded-lg bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border-2 border-borderColor">
         <h1 className="font-mono text-2xl text-center subpixel-antialiased font-bold">
           About Me
         </h1>
@@ -18,22 +23,26 @@ function About() {
         </h2>
 
         <div className="flex md:flex-row flex-col box-border md:justify-between justify-center align-middle">
-          <div className="md:h-64 md:w-64 h-64 w-64 m-auto">
-            <img src={profileImg} alt="" />
+          <div className="m-auto flex justify-center align-middle">
+            <img
+              className="md:h-56 md:w-56 h-64 w-64 border-2 border-borderColor"
+              src={profileImg}
+              alt=""
+            />
           </div>
           <div className="flex md:flex-col flex-col box-border md:p-10 p-3 gap-5 w-8/12 m-auto">
             <div className="flex md:flex-row flex-col gap-4 justify-center">
-              <div className="flex flex-col gap-1 justify-center text-center border-white border-2 rounded-lg h-full w-full py-6">
+              <div className="flex flex-col gap-1 justify-center text-center border-2 border-borderColor rounded-lg h-full w-full py-6">
                 <div>{<FontAwesomeIcon icon={faLaptopCode} inverse />}</div>
                 <h2>Experience</h2>
                 <p>Months Working</p>
               </div>
-              <div className="flex flex-col gap-1 justify-center text-center border-white border-2 rounded-lg h-full w-full py-6">
+              <div className="flex flex-col gap-1 justify-center text-center border-2 border-borderColor rounded-lg h-full w-full py-6">
                 <div>{<FontAwesomeIcon icon={faBriefcase} inverse />}</div>
                 <h2>Projects</h2>
                 <p>5+ Projects</p>
               </div>
-              <div className="flex flex-col gap-1 justify-center text-center border-white border-2 rounded-lg h-full w-full py-6">
+              <div className="flex flex-col gap-1 justify-center text-center border-2 border-borderColor rounded-lg h-full w-full py-6">
                 <div>{<FontAwesomeIcon icon={faGraduationCap} inverse />}</div>
                 <h2>Learning</h2>
                 <p>24/7</p>
@@ -56,6 +65,7 @@ function About() {
           </div>
         </div>
       </div>
+      <LeetCode />
     </div>
   );
 }

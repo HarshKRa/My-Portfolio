@@ -1,25 +1,22 @@
-:root{
+:root {
+  --color-text: #0c0c0c;
+  --color-primary: #c5c8d4;
+  --color-secondary: #b7c14d;
+  --color-dark: #a2b8d3;
+  --color-bg: #aba8a0;
 
-    --color-text: #fff;
-    --color-primary: #484a53;
-    --color-secondary: #274a4a;
-    --color-dark: #656d77;
-    --color-bg: #101316;
-  
-    /* Fonts */
-    --font-roboto: "Roboto";
+  /* Fonts */
+  --font-roboto: "Roboto";
 }
 
-
-*{
-    /* background: var(--body-background-color); */
-    color: #dcddde; 
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-} 
-
-body{
-    background: var(--color-bg);
+* {
+  /* background: var(--body-background-color); */
+  color: #070707;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  background: var(--color-bg);
+}

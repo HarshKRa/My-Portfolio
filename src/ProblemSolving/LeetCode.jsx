@@ -43,7 +43,7 @@ function LeetCode() {
 
   return (
     <>
-      <div className=" mx-auto w-11/12 mt-10 p-6 md:px-2 bg-gray-600 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100 ">
+      <div className=" mx-auto w-11/12 mt-10 p-6 md:px-2 bg-bgPrimary rounded-lg bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border-2 border-borderColor">
         <h1 className="text-2xl text-center  font-bold md:mb-8 mb-2">
           LeetCode Stats
         </h1>
@@ -135,9 +135,6 @@ function LeetCode() {
               </div>
             </div>
           </div>
-          {/* <div className=" md:inline-block hidden p-2 h-40 w-[600px] border-white border-[1px] rounded-sm">
-              <img src={LeetCodeImg} alt="" />
-            </div> */}
         </div>
       </div>
     </>
