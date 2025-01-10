@@ -12,7 +12,7 @@ const ProjectData = [
     discription: "Made clone of netfilx.",
     technologyUsed: ["React", "Redux", "Node.js", "Firebase"],
     imgink: imgNetFlix,
-    url: "https://moviewebsiteby.netlify.app/login",
+    url: "https://moviewebsiteby.netlify.app",
     gitUrl: "https://github.com/HarshKRa/netflix_clone",
   },
   {
